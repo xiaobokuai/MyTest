@@ -1,0 +1,84 @@
+{
+  "local": [
+    {
+      "ruleName": "BoolPrefix",
+      "IsAndroid": ""
+    },
+    {
+      "ruleName": "MethodParameter",
+      "maxParameterNum": "5",
+      "maxMethodNestedDepth": "4",
+      "maxMethodLength": "50"
+    },
+    {
+      "ruleName": "IdentifierName",
+      "maxLength": "64"
+    },
+    {
+      "ruleName": "FileSeparator",
+      "CanFilterPathParams": ""
+    },
+    {
+      "ruleName": "WhitespaceNoTrailing",
+      "isCheckWhiteSpaceInLineTrail": "true"
+    },
+    {
+      "ruleName": "FileHeaderComment",
+      "CompanyName": "Huawei Technologies Co., Ltd."
+    },
+    {
+      "ruleName": "MethodNestedDepth",
+      "maxParameterNum": "5",
+      "maxMethodNestedDepth": "4",
+      "maxMethodLength": "50"
+    },
+    {
+      "ruleName": "ConditionalExpression",
+      "maxConditionNum": "3"
+    },
+    {
+      "ruleName": "MethodLength",
+      "maxParameterNum": "5",
+      "maxMethodNestedDepth": "4",
+      "maxMethodLength": "50"
+    },
+    {
+      "ruleName": "IndentBySpace",
+      "customizeSpace": "8"
+    },
+    {
+      "ruleName": "ThreadException",
+      "EnableCheckRunnable": "false"
+    },
+    {
+      "ruleName": "VarDeclarationNearUsage",
+      "maxInterval": "10"
+    },
+    {
+      "ruleName": "BoolVariableName",
+      "specialBoolVariableName": ""
+    },
+    {
+      "ruleName": "LineLength",
+      "maxLineLength": "120",
+      "cnCharLength": "1.5"
+    },
+    {
+      "ruleName": "ThrowsCount",
+      "maxThrowNum": "5"
+    },
+    {
+      "ruleName": "LineSeparator",
+      "CanFilterPathParams": ""
+    },
+    {
+      "ruleName": "GeneralSecurityLog",
+      "paramConfig": ""
+    },
+    {
+      "ruleName": "ConstantName",
+      "checkDevilNumber": "false",
+      "customConstantType": ""
+    }
+  ]
+}

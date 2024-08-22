@@ -1,0 +1,717 @@
+{
+  "taskId" : "1724038374676",
+  "language" : [ "JAVA" ],
+  "projectRoot" : "D:\\Project\\Java\\MyTest",
+  "sourceFiles" : [ "src\\Main.java" ],
+  "fileSuffixes" : {
+    "functioncap" : [ "cc", "mm", "hh", "rs", "cpp", "cxx", "c++", "c", "inl", "h", "go", "js", "hpp", "hxx", "h++", "py", "*", "cp", "jsx", "java", "lua", "asm", "inc" ],
+    "compilerwarningsparser" : [ "*" ],
+    "ecc" : [ "c", "h" ],
+    "pmd" : [ "java" ],
+    "codemars" : [ "*" ],
+    "fixbotengine-cxx" : [ "cc", "hh", "mm", "cpp", "cxx", "c++", "c", "inl", "h", "hpp", "hxx", "h++", "cp", "inc" ],
+    "cmetrics" : [ "cc", "mm", "hh", "rs", "cpp", "cxx", "c++", "c", "inl", "h", "go", "js", "hpp", "hxx", "h++", "py", "*", "cp", "jsx", "java", "lua", "asm", "inc" ],
+    "rustfmt" : [ "rs" ],
+    "infusion" : [ "cc", "cpp", "java", "c", "ph", "h", "inc" ],
+    "apidiscovery" : [ "java", "xml", "go", "yml", "jar", "class", "properties", "yaml" ],
+    "wnpythoncodecheck" : [ "py" ],
+    "checkstyle" : [ "java" ],
+    "codefolder" : [ "*" ],
+    "cpplint" : [ "cc", "hh", "mm", "cpp", "cxx", "c++", "c", "inl", "h", "hpp", "hxx", "h++", "cp", "inc" ],
+    "superchecker" : [ "java" ],
+    "atia" : [ "cpp", " hpp" ],
+    "miriguard" : [ "rs" ],
+    "cooddy" : [ "*" ],
+    "specchecker" : [ "cc", "mm", "hh", "cpp", "cxx", "c++", "c", "inl", "h", "hpp", "hxx", "h++", "cp", "inc" ],
+    "tscancode" : [ "cc", "cpp", "c", "h" ],
+    "apiengine" : [ "ets", "ts" ],
+    "pclint-plus" : [ "cc", "hh", "mm", "cpp", "cxx", "c++", "c", "inl", "h", "hpp", "hxx", "h++", "cp", "inc" ],
+    "flexelint" : [ "cc", "hh", "mm", "cpp", "cxx", "c++", "c", "inl", "h", "hpp", "hxx", "h++", "cp", "inc" ],
+    "commitlog" : [ "*" ],
+    "goarch" : [ "go" ],
+    "pythonchecker" : [ "py" ],
+    "testcodechecker" : [ "cc", "cpp", "java", "c", "h", "go", "hpp", "py" ],
+    "sccheck" : [ "java" ],
+    "fixbot-pclintplus" : [ "cc", "mm", "hh", "cpp", "cxx", "c++", "c", "inl", "h", "hpp", "hxx", "h++", "cp", "tpp", "txx", "inc" ],
+    "wetrace" : [ "c", "h" ],
+    "wukong" : [ "*" ],
+    "checkstylechecker" : [ "java" ],
+    "fixbotengine-java" : [ "java" ],
+    "woodpecker" : [ "*" ],
+    "clippy" : [ "rs" ],
+    "flake8" : [ "py" ],
+    "eslint" : [ "ux", "vue", "tsx", "js", "jsx", "ts" ],
+    "clangtidy" : [ "cc", "hh", "mm", "cpp", "cxx", "c++", "c", "inl", "h", "hpp", "hxx", "h++", "cp", "inc" ],
+    "cppcheck" : [ "cc", "hh", "mm", "cpp", "cxx", "c++", "c", "inl", "h", "hpp", "hxx", "h++", "cp", "inc" ],
+    "seccode" : [ "*" ],
+    "spotbugs" : [ "java" ],
+    "gostyle" : [ "go" ],
+    "ucfn" : [ "*" ],
+    "anystandard" : [ "lua" ],
+    "sonarqube" : [ "*" ],
+    "secmissile" : [ "*" ],
+    "molint" : [ "cpp", "c" ],
+    "pmd-p3c" : [ "java" ],
+    "microcode" : [ "p5", "h", "asm" ],
+    "rubocop" : [ "rb", "tc", "ts" ],
+    "fortify" : [ "*" ],
+    "secbrella" : [ "htm", "vue", "tsx", "js", "py", "*", "html", "jsx", "ts" ],
+    "binscope" : [ "*" ],
+    "chat" : [ "*" ],
+    "pylint" : [ "py" ],
+    "golint" : [ "go" ],
+    "sensitiveinfodiscovery" : [ "*" ],
+    "fmc" : [ "*" ],
+    "codecheckrevive" : [ "go" ]
+  },
+  "properties" : {
+    "functioncap" : {
+      "checkPath" : "\"D:\\Project\\Java\\MyTest\\src\\Main.java\""
+    },
+    "fixbotengine-java" : {
+      "fixbotDir" : "C:\\Users\\l30067497\\.hicode\\CodeCheck\\CodeCheckAgent\\fixbot"
+    },
+    "codemars" : {
+      "pythonVersion" : "python3"
+    },
+    "cmetrics" : {
+      "checkPath" : "\"D:\\Project\\Java\\MyTest\\src\\Main.java\""
+    }
+  },
+  "runtimeEnv" : {
+    "jrePath" : "C:\\Users\\l30067497\\.hicode\\CodeCheck\\CodeCheckAgent\\uccp-app-1.0.0\\tools\\jre11\\bin\\java.exe"
+  },
+  "mode" : 2,
+  "languageSupports" : [ {
+    "fileSuffixes" : [ "java" ],
+    "language" : "java"
+  } ],
+  "ruleSets" : [ {
+    "toolRules" : [ {
+      "rules" : [ {
+        "ruleName" : "functioncap fake rule",
+        "args" : [ ]
+      } ],
+      "toolName" : "functioncap"
+    }, {
+      "rules" : [ {
+        "ruleName" : "BoolPrefix",
+        "args" : [ {
+          "value" : "",
+          "key" : "IsAndroid"
+        } ]
+      }, {
+        "ruleName" : "ThreadCreation",
+        "args" : [ ]
+      }, {
+        "ruleName" : "LogLevel",
+        "args" : [ ]
+      }, {
+        "ruleName" : "WrapperClassInOverloadMethod",
+        "args" : [ ]
+      }, {
+        "ruleName" : "MethodParameter",
+        "args" : [ {
+          "value" : "5",
+          "key" : "maxParameterNum"
+        }, {
+          "value" : "4",
+          "key" : "maxMethodNestedDepth"
+        }, {
+          "value" : "50",
+          "key" : "maxMethodLength"
+        } ]
+      }, {
+        "ruleName" : "MultipleVariableDeclarations",
+        "args" : [ ]
+      }, {
+        "ruleName" : "IdentifierName",
+        "args" : [ {
+          "value" : "64",
+          "key" : "maxLength"
+        } ]
+      }, {
+        "ruleName" : "FileEncoding",
+        "args" : [ ]
+      }, {
+        "ruleName" : "AssignCharset",
+        "args" : [ ]
+      }, {
+        "ruleName" : "ComputeCast",
+        "args" : [ ]
+      }, {
+        "ruleName" : "ToArray",
+        "args" : [ ]
+      }, {
+        "ruleName" : "TodoComment",
+        "args" : [ ]
+      }, {
+        "ruleName" : "FileSeparator",
+        "args" : [ {
+          "value" : "",
+          "key" : "CanFilterPathParams"
+        } ]
+      }, {
+        "ruleName" : "LineWrap",
+        "args" : [ ]
+      }, {
+        "ruleName" : "LoopControlVariable",
+        "args" : [ ]
+      }, {
+        "ruleName" : "JavaDocLineBreak",
+        "args" : [ ]
+      }, {
+        "ruleName" : "WhitespaceNoTrailing",
+        "args" : [ {
+          "value" : "true",
+          "key" : "isCheckWhiteSpaceInLineTrail"
+        } ]
+      }, {
+        "ruleName" : "FileHeaderComment",
+        "args" : [ {
+          "value" : "Huawei Technologies Co., Ltd.",
+          "key" : "CompanyName"
+        } ]
+      }, {
+        "ruleName" : "Parenthesis",
+        "args" : [ ]
+      }, {
+        "ruleName" : "ThreadInterrupt",
+        "args" : [ ]
+      }, {
+        "ruleName" : "ThrowRawException",
+        "args" : [ ]
+      }, {
+        "ruleName" : "Ordinal",
+        "args" : [ ]
+      }, {
+        "ruleName" : "StringComparison",
+        "args" : [ ]
+      }, {
+        "ruleName" : "FloatEquals",
+        "args" : [ ]
+      }, {
+        "ruleName" : "ExpressionComparison",
+        "args" : [ ]
+      }, {
+        "ruleName" : "OneStatementPerLine",
+        "args" : [ ]
+      }, {
+        "ruleName" : "ThreadControl",
+        "args" : [ ]
+      }, {
+        "ruleName" : "FieldModifier",
+        "args" : [ ]
+      }, {
+        "ruleName" : "LogWithoutChinese",
+        "args" : [ ]
+      }, {
+        "ruleName" : "NeedBrace",
+        "args" : [ ]
+      }, {
+        "ruleName" : "SerializeFileHandle",
+        "args" : [ ]
+      }, {
+        "ruleName" : "UnusedImport",
+        "args" : [ ]
+      }, {
+        "ruleName" : "BracesPosition",
+        "args" : [ ]
+      }, {
+        "ruleName" : "CommentIndentation",
+        "args" : [ ]
+      }, {
+        "ruleName" : "JavaDocFormat",
+        "args" : [ ]
+      }, {
+        "ruleName" : "LogModifier",
+        "args" : [ ]
+      }, {
+        "ruleName" : "UsePatternCompileInMethodOrForStatement",
+        "args" : [ ]
+      }, {
+        "ruleName" : "Mutable",
+        "args" : [ ]
+      }, {
+        "ruleName" : "SwitchMustHaveDefault",
+        "args" : [ ]
+      }, {
+        "ruleName" : "UnnecessaryNew",
+        "args" : [ ]
+      }, {
+        "ruleName" : "TypeCast",
+        "args" : [ ]
+      }, {
+        "ruleName" : "WrapperClass",
+        "args" : [ ]
+      }, {
+        "ruleName" : "MethodNestedDepth",
+        "args" : [ {
+          "value" : "5",
+          "key" : "maxParameterNum"
+        }, {
+          "value" : "4",
+          "key" : "maxMethodNestedDepth"
+        }, {
+          "value" : "50",
+          "key" : "maxMethodLength"
+        } ]
+      }, {
+        "ruleName" : "JavaDocScope",
+        "args" : [ ]
+      }, {
+        "ruleName" : "Finalize",
+        "args" : [ ]
+      }, {
+        "ruleName" : "Locale",
+        "args" : [ ]
+      }, {
+        "ruleName" : "PackageName",
+        "args" : [ ]
+      }, {
+        "ruleName" : "DoNotLogWithSystemPrint",
+        "args" : [ ]
+      }, {
+        "ruleName" : "AvoidSerialization",
+        "args" : [ ]
+      }, {
+        "ruleName" : "CompareNaN",
+        "args" : [ ]
+      }, {
+        "ruleName" : "ReuseConstructor",
+        "args" : [ ]
+      }, {
+        "ruleName" : "FallThrough",
+        "args" : [ ]
+      }, {
+        "ruleName" : "ResourceRelease",
+        "args" : [ ]
+      }, {
+        "ruleName" : "AnnotationInOneLine",
+        "args" : [ ]
+      }, {
+        "ruleName" : "NonConstantName",
+        "args" : [ ]
+      }, {
+        "ruleName" : "BigDecimalEquals",
+        "args" : [ ]
+      }, {
+        "ruleName" : "ConditionalExpression",
+        "args" : [ {
+          "value" : "3",
+          "key" : "maxConditionNum"
+        } ]
+      }, {
+        "ruleName" : "RedundantEmptyLine",
+        "args" : [ ]
+      }, {
+        "ruleName" : "AvoidEmptyBlock",
+        "args" : [ ]
+      }, {
+        "ruleName" : "EnumBlank",
+        "args" : [ ]
+      }, {
+        "ruleName" : "SerializableClassMustHaveSerialVersionUid",
+        "args" : [ ]
+      }, {
+        "ruleName" : "GenericClassWithQualifier",
+        "args" : [ ]
+      }, {
+        "ruleName" : "UntrustedSingleton",
+        "args" : [ ]
+      }, {
+        "ruleName" : "OperandTypeInConditionalExpression",
+        "args" : [ ]
+      }, {
+        "ruleName" : "UpperEllRule",
+        "args" : [ ]
+      }, {
+        "ruleName" : "EmptyInfiniteLoop",
+        "args" : [ ]
+      }, {
+        "ruleName" : "TypeName",
+        "args" : [ ]
+      }, {
+        "ruleName" : "MethodLength",
+        "args" : [ {
+          "value" : "5",
+          "key" : "maxParameterNum"
+        }, {
+          "value" : "4",
+          "key" : "maxMethodNestedDepth"
+        }, {
+          "value" : "50",
+          "key" : "maxMethodLength"
+        } ]
+      }, {
+        "ruleName" : "CommentSpace",
+        "args" : [ ]
+      }, {
+        "ruleName" : "JavaComponentOrder",
+        "args" : [ ]
+      }, {
+        "ruleName" : "ReturnTemporaryVariable",
+        "args" : [ ]
+      }, {
+        "ruleName" : "IndentBySpace",
+        "args" : [ {
+          "value" : "8",
+          "key" : "customizeSpace"
+        } ]
+      }, {
+        "ruleName" : "EmptyCatch",
+        "args" : [ ]
+      }, {
+        "ruleName" : "NoCStyleArrayName",
+        "args" : [ ]
+      }, {
+        "ruleName" : "FlexibleParameter",
+        "args" : [ ]
+      }, {
+        "ruleName" : "TopClassComment",
+        "args" : [ ]
+      }, {
+        "ruleName" : "AvoidArrayLoops",
+        "args" : [ ]
+      }, {
+        "ruleName" : "ElseIfCondition",
+        "args" : [ ]
+      }, {
+        "ruleName" : "Finalizer",
+        "args" : [ ]
+      }, {
+        "ruleName" : "Optional",
+        "args" : [ ]
+      }, {
+        "ruleName" : "ForeachAddOrRemove",
+        "args" : [ ]
+      }, {
+        "ruleName" : "ConstructorInvokesOverridable",
+        "args" : [ ]
+      }, {
+        "ruleName" : "ImportOrder",
+        "args" : [ ]
+      }, {
+        "ruleName" : "LoopGC",
+        "args" : [ ]
+      }, {
+        "ruleName" : "HorizontalAlignment",
+        "args" : [ ]
+      }, {
+        "ruleName" : "CharsetName",
+        "args" : [ ]
+      }, {
+        "ruleName" : "ThreadException",
+        "args" : [ {
+          "value" : "false",
+          "key" : "EnableCheckRunnable"
+        } ]
+      }, {
+        "ruleName" : "ModifierOrder",
+        "args" : [ ]
+      }, {
+        "ruleName" : "CodeInComment",
+        "args" : [ ]
+      }, {
+        "ruleName" : "VarDeclarationNearUsage",
+        "args" : [ {
+          "value" : "10",
+          "key" : "maxInterval"
+        } ]
+      }, {
+        "ruleName" : "GenericCollection",
+        "args" : [ ]
+      }, {
+        "ruleName" : "NestedSwitch",
+        "args" : [ ]
+      }, {
+        "ruleName" : "BoolVariableName",
+        "args" : [ {
+          "value" : "",
+          "key" : "specialBoolVariableName"
+        } ]
+      }, {
+        "ruleName" : "MultipleAssignment",
+        "args" : [ ]
+      }, {
+        "ruleName" : "LineLength",
+        "args" : [ {
+          "value" : "120",
+          "key" : "maxLineLength"
+        }, {
+          "value" : "1.5",
+          "key" : "cnCharLength"
+        } ]
+      }, {
+        "ruleName" : "MethodHeadComment",
+        "args" : [ ]
+      }, {
+        "ruleName" : "HiddenField",
+        "args" : [ ]
+      }, {
+        "ruleName" : "ThreadName",
+        "args" : [ ]
+      }, {
+        "ruleName" : "ReturnAssignedVariable",
+        "args" : [ ]
+      }, {
+        "ruleName" : "Finally",
+        "args" : [ ]
+      }, {
+        "ruleName" : "SuppressWarnings",
+        "args" : [ ]
+      }, {
+        "ruleName" : "ThrowsCount",
+        "args" : [ {
+          "value" : "5",
+          "key" : "maxThrowNum"
+        } ]
+      }, {
+        "ruleName" : "LoopFloat",
+        "args" : [ ]
+      }, {
+        "ruleName" : "CollectionReturn",
+        "args" : [ ]
+      }, {
+        "ruleName" : "DoNotUseNotify",
+        "args" : [ ]
+      }, {
+        "ruleName" : "LineSeparator",
+        "args" : [ {
+          "value" : "",
+          "key" : "CanFilterPathParams"
+        } ]
+      }, {
+        "ruleName" : "EqualsHashCode",
+        "args" : [ ]
+      }, {
+        "ruleName" : "BaseException",
+        "args" : [ ]
+      }, {
+        "ruleName" : "ParameterAssignment",
+        "args" : [ ]
+      }, {
+        "ruleName" : "DeclarationOrder",
+        "args" : [ ]
+      }, {
+        "ruleName" : "GeneralSecurityLog",
+        "args" : [ {
+          "value" : "",
+          "key" : "paramConfig"
+        } ]
+      }, {
+        "ruleName" : "ConstantName",
+        "args" : [ {
+          "value" : "false",
+          "key" : "checkDevilNumber"
+        }, {
+          "value" : "",
+          "key" : "customConstantType"
+        } ]
+      }, {
+        "ruleName" : "MethodName",
+        "args" : [ ]
+      }, {
+        "ruleName" : "RedundantModifier",
+        "args" : [ ]
+      } ],
+      "toolName" : "fixbotengine-java"
+    }, {
+      "rules" : [ {
+        "ruleName" : "Bad_Practices_Sockets_Bind_IP",
+        "args" : [ ]
+      }, {
+        "ruleName" : "Invalid_Security_Check",
+        "args" : [ ]
+      }, {
+        "ruleName" : "Missing_SecurityManager_Check_Serializable",
+        "args" : [ ]
+      }, {
+        "ruleName" : "Forbid_Serialize_Nonstatic_Inner_Class",
+        "args" : [ ]
+      }, {
+        "ruleName" : "Privacy_Violation_Serialization",
+        "args" : [ ]
+      }, {
+        "ruleName" : "SecurityManager_Privacy_Operation",
+        "args" : [ ]
+      }, {
+        "ruleName" : "XXE_SchemaFactory",
+        "args" : [ ]
+      }, {
+        "ruleName" : "Forbid_Synchronize_Concurrency_Object",
+        "args" : [ ]
+      }, {
+        "ruleName" : "IO_Process_WaitFor",
+        "args" : [ ]
+      }, {
+        "ruleName" : "XXE_DocumentBuilderFactory",
+        "args" : [ ]
+      }, {
+        "ruleName" : "XXE_SAXBuilder",
+        "args" : [ ]
+      }, {
+        "ruleName" : "Insecure_XML_Transform_By_XSLT",
+        "args" : [ ]
+      }, {
+        "ruleName" : "XXE_DocumentHelper",
+        "args" : [ ]
+      }, {
+        "ruleName" : "Forbid_Synchronize_getClass_Object",
+        "args" : [ ]
+      }, {
+        "ruleName" : "XXE_SAXTransformerFactory",
+        "args" : [ ]
+      }, {
+        "ruleName" : "XXE_SAXParserFactory",
+        "args" : [ ]
+      }, {
+        "ruleName" : "Invalid_Read_From_Stream",
+        "args" : [ ]
+      }, {
+        "ruleName" : "Call_Super_GetPermission",
+        "args" : [ ]
+      }, {
+        "ruleName" : "Zip_Entry_Size",
+        "args" : [ ]
+      }, {
+        "ruleName" : "Canonical_Path",
+        "args" : [ ]
+      }, {
+        "ruleName" : "Forbid_System_Exit",
+        "args" : [ ]
+      }, {
+        "ruleName" : "AvoidUsingHardCodedIP",
+        "args" : [ ]
+      }, {
+        "ruleName" : "Forbid_Thread_Stop",
+        "args" : [ ]
+      }, {
+        "ruleName" : "XXE_DocumentBuilderFactoryImpl",
+        "args" : [ ]
+      }, {
+        "ruleName" : "XXE_XMLReaderFactory",
+        "args" : [ ]
+      }, {
+        "ruleName" : "Forbid_Synchronize_Reused_Object",
+        "args" : [ ]
+      }, {
+        "ruleName" : "System_Information_Leak",
+        "args" : [ ]
+      }, {
+        "ruleName" : "XXE_TransformerFactory",
+        "args" : [ ]
+      }, {
+        "ruleName" : "Bad_Practices_Sockets",
+        "args" : [ ]
+      }, {
+        "ruleName" : "XXE_XMLInputFactory",
+        "args" : [ ]
+      }, {
+        "ruleName" : "Privacy_Violation_Password",
+        "args" : [ ]
+      }, {
+        "ruleName" : "Object_Signed_Encrypted",
+        "args" : [ ]
+      }, {
+        "ruleName" : "Assertions_With_Side_Effects",
+        "args" : [ ]
+      }, {
+        "ruleName" : "XXE_SAXReader",
+        "args" : [ ]
+      }, {
+        "ruleName" : "Insecure_Instance_Lock",
+        "args" : [ ]
+      } ],
+      "toolName" : "codemars"
+    }, {
+      "rules" : [ {
+        "ruleName" : "huge_cca_cyclomatic_complexity",
+        "args" : [ {
+          "value" : "20",
+          "key" : "threshold_modify"
+        }, {
+          "value" : "20",
+          "key" : "threshold"
+        } ]
+      }, {
+        "ruleName" : "huge_folder",
+        "args" : [ {
+          "value" : "50",
+          "key" : "threshold"
+        } ]
+      }, {
+        "ruleName" : "huge_non_headerfile",
+        "args" : [ {
+          "value" : "2000",
+          "key" : "threshold_modify"
+        }, {
+          "value" : "2000",
+          "key" : "threshold"
+        } ]
+      }, {
+        "ruleName" : "huge_depth",
+        "args" : [ {
+          "value" : "4",
+          "key" : "threshold_modify"
+        }, {
+          "value" : "4",
+          "key" : "threshold"
+        } ]
+      }, {
+        "ruleName" : "duplication_file",
+        "args" : [ ]
+      }, {
+        "ruleName" : "huge_cyclomatic_complexity",
+        "args" : [ {
+          "value" : "20",
+          "key" : "threshold_modify"
+        }, {
+          "value" : "20",
+          "key" : "threshold"
+        } ]
+      }, {
+        "ruleName" : "warning_suppression",
+        "args" : [ ]
+      }, {
+        "ruleName" : "huge_method",
+        "args" : [ {
+          "value" : "50",
+          "key" : "threshold_modify"
+        }, {
+          "value" : "50",
+          "key" : "threshold"
+        } ]
+      }, {
+        "ruleName" : "redundant_code",
+        "args" : [ ]
+      }, {
+        "ruleName" : "duplication_code",
+        "args" : [ {
+          "value" : "10",
+          "key" : "duplication_code_slice"
+        } ]
+      } ],
+      "toolName" : "cmetrics"
+    }, {
+      "rules" : [ {
+        "ruleName" : "SecJ_Hardcoded_URL",
+        "args" : [ ]
+      }, {
+        "ruleName" : "SecJ_Lock_Object_Not_Final",
+        "args" : [ ]
+      }, {
+        "ruleName" : "SecS_XSLT_Injection",
+        "args" : [ ]
+      }, {
+        "ruleName" : "SecJ_XML_External_Entity_Injection_JavaStandard",
+        "args" : [ ]
+      }, {
+        "ruleName" : "SecS_Path_Manipulation",
+        "args" : [ ]
+      } ],
+      "toolName" : "secsolar"
+    } ],
+    "language" : "java"
+  } ]
+}
